@@ -19,12 +19,12 @@ Enter a sentence: The best password is no password.
 the sentence contains password
 """
 sentence = input("Input your sentence")
-word = 'password'
+word = "password"
 word2 = "Password"
 
 if word in sentence:
-    print('the sentence contains the password')
+    print("the sentence contains password")
 elif word2 in sentence:
-    print("the sentence conatains the password")
+    print("the sentence conatains password")
 elif word not in sentence:
     print("the sentence does not contain password")
