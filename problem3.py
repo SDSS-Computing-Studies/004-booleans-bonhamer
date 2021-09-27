@@ -27,7 +27,7 @@ x = str(input("Enter a username")).strip()
 if x != "admin":
     print("invalid user")
     exit()
-y =str(input("enter a password")).strip()
+y = str(input("enter a password")).strip()
 if y == "12345password":
     print("Access Granted")
 elif y != "12455password":
