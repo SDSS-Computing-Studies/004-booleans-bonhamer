@@ -29,6 +29,6 @@ if x != "admin":
     exit()
 y = str(input("enter a password")).strip()
 if y == "12345password":
-    print("Access Granted")
+    print("Access granted")
 elif y != "12455password":
     print("Access denied")
