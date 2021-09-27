@@ -12,6 +12,6 @@
 # "the number is not an integer"
 N = float(input("Enter a number"))
 if N == int(N):
-    print("This number is an integer")
+    print("the number is an integer")
 elif N == float(N):
-    print("This number is not a integer")
+    print("the number is not an integer")
