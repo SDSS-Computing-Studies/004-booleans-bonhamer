@@ -33,3 +33,33 @@ that is an obtuse triangle
 
 
 """
+import math
+a = input("Enter a value for the side a: ")
+a = float(a)
+
+b = input("Enter a value for the side b: ")
+b = float(b)
+
+c = input("Enter a value for the side c: ")
+c = float(c)
+
+x = a**2
+y = b**2
+z = c**2
+
+w = x + y
+
+d = math.sqrt(x + y)
+e = d * 0.02
+f = d
+d = d + e
+f = d - e
+
+if c >= f <= d:
+  print("that is a right triangle")
+
+elif w > z:
+  print("that is an obtuse triangle")
+  
+elif w < z:
+  print("that is an acute triangle")

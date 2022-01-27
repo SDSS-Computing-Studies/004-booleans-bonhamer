@@ -29,3 +29,19 @@ Enter c: 8
 the equation can not be factored
 
 """
+
+import math
+
+x=input("Enter the number")
+v=input("Enter the number")
+c=input("Enter the number")
+
+result=(float(v)**float(2))-(float(4)*float(x)*float(c))
+result=float(result)
+
+if result==0:
+    print("the equation can be factored")
+else:
+    print("the equation can not be factored")
+
+    pass
