@@ -23,6 +23,7 @@
  Enter password: password
  Access denied
 """
+
 x = str(input("Enter a username")).strip()
 if x != "admin":
     print("invalid user")
